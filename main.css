@@ -555,6 +555,11 @@ width: 97%;
     border-radius: 20px;
     padding: 2%;
     margin-left: 5%;
+    width: 80%;
+}
+
+.searchbox:focus{
+    outline: none;
 }
 .searchbutton {
     right: 0%;
