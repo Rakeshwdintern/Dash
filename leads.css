@@ -736,6 +736,9 @@ background: #eff2f9;
 
 
 }
+.mytext:focus{
+    outline: none;
+}
 
 .word-count{
     font-size: 0.6rem;
@@ -775,18 +778,39 @@ justify-content: center;
 
 
 }
+.right-main-container5-a{
+    position: relative;
+}
 
 .lklk{
     margin-top: 2rem;
     display: flex;
     justify-content: start;
-    align-items: center;
+     align-items: center;
     width: 50%;
     font-size: 0.8rem;
     background-color: #2f81e7;
     border-radius: 15px;
     color: white;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .show {display: block;}
 
 .masm{
     margin: 0 auto;
