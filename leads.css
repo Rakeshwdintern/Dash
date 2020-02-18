@@ -780,10 +780,10 @@ justify-content: center;
     margin-top: 2rem;
     display: flex;
     justify-content: start;
- align-items: center;
+    align-items: center;
     width: 50%;
     font-size: 0.8rem;
-    background-color: darkblue;
+    background-color: #2f81e7;
     border-radius: 15px;
     color: white;
 }
