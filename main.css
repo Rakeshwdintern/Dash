@@ -135,6 +135,7 @@ height: 100%;
 
 .footer-left-sidebar{
     position: fixed;
+    background: white;
     bottom: 0;
 }
 
@@ -754,7 +755,7 @@ use
 }
 .mob-list-pages{
     margin-top: 10%;
-    height: 70%;
+    height: 60%;
 }
 
 .folder-cotainer{
@@ -768,7 +769,7 @@ use
 .folder-inner-row-1{
     position: absolute;
     right: 10%;
-    bottom: 92%;
+    bottom: 94%;
 }
 
 .folder-inner-row-2{
@@ -840,7 +841,9 @@ use
     border-radius: 20px;
 }
 .main-table-row{
+    margin: 0 -7%;
     margin-bottom: 4rem;
+    width: 100%;
 }
 
 .right-row-1{
@@ -897,6 +900,10 @@ use
     margin-bottom: 10%;
     border-bottom: white;
     border-bottom-style: solid;
+}
+
+.tablerow{
+    width: 115%;
 }
 
 }

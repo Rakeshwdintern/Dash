@@ -236,6 +236,10 @@ text-decoration: none;
     padding: 2%;
     margin-left: 5%;
 }
+
+.searchbox:focus{
+    outline: none;
+}
 .searchbutton {
     right: 0%;
     top: 0px;
@@ -859,7 +863,7 @@ text-align: center;
 }
 .mob-list-pages{
     margin-top: 10%;
-    height: 70%;
+    height: 60%;
 }
 
 .leads-center-row1{
@@ -1007,6 +1011,7 @@ margin-top: 10%;
 .footer-left-sidebar {
     position: fixed;
     bottom: 2%;
+    background:white;
 }
 
 
