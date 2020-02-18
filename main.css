@@ -856,10 +856,43 @@ use
 
 .footer-left-sidebar {
     position: fixed;
-    bottom: 5%;
+    bottom: 2%;
+}
+.center-main-row-2-sidehead2 {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.center-main-row-2-sidehead1 {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.center-main-row-2-sidehead {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.tablecell-mobile{
+    position: relative;
+}
+.demo{background: cornflowerblue;
+    color: white;
+    position: absolute;
+    right: 20%;
+    font-size: medium;
+    width: 10rem;
+}
+.my_list-info{
+    list-style-type: none;
+    padding:0.5rem;
 }
 
-
+.my_list-info li{
+    margin-bottom: 10%;
+    border-bottom: white;
+    border-bottom-style: solid;
+}
 
 }
 
@@ -1010,6 +1043,7 @@ use
         
     }
     
+
     
     .text-box{
         justify-content: space-between;

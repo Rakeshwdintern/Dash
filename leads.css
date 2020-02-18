@@ -469,10 +469,10 @@ text-decoration: none;
 .pagein{
     font-size: 0.6rem;
 }
-.page-item .page-link{
+.page-item .page-link {
     background: transparent;
-    border:none;
-
+    border: none;
+    border-radius: 20px !important;
 }
 
 .pn .page-link{
@@ -872,6 +872,10 @@ width: 98%;
 .searchbox{
     width: 80%;
 }
+
+.searchbox:focus{
+    outline: none;
+}
 .create-campaign-button{
     width: 50%;
     margin-top: 10%;
@@ -1002,7 +1006,7 @@ margin-top: 10%;
 
 .footer-left-sidebar {
     position: fixed;
-    bottom: 5%;
+    bottom: 2%;
 }
 
 
@@ -1053,7 +1057,14 @@ margin-top: 10%;
     border-color: #007bff;
 }
 
-
+.action-button{
+    position: relative;
+}
+.a-bdemo{
+    position: absolute;
+    right: 20%;
+    background: white;
+}
 
 }
 
