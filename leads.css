@@ -862,7 +862,7 @@ text-align: center;
 }
 ::-webkit-scrollbar-track {
     display: block;
-    box-shadow:  0 0 6px rgba(29, 165, 199, 1);
+    box-shadow:  10px 4px 6px rgba(29, 165, 199, 1);
     border-radius: 10px;
     
 }
