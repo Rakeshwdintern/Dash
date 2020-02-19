@@ -868,6 +868,7 @@ text-align: center;
 }
 ::-webkit-scrollbar-track {
     display: block;
+    color: rgba(29, 165, 199, 0.5);
     box-shadow:  0 0 6px 10px rgba(29, 165, 199, 1);
     border-radius: 10px;
     
