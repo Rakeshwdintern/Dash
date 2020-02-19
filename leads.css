@@ -860,6 +860,12 @@ text-align: center;
 .mobile-footer{
     position: relative;
 }
+::-webkit-scrollbar-track {
+    display: block;
+    box-shadow:  0 0 6px rgba(29, 165, 199, 1);
+    border-radius: 10px;
+    
+}
 
 
 
