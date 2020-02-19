@@ -115,7 +115,7 @@ height: 100%;
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(29, 165, 199, 0.5); 
+    box-shadow: inset 0 0 6px rgba(29, 165, 199, 0.5); 
 }
 ::-webkit-scrollbar {
     min-height: 10px;
