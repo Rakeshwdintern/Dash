@@ -124,7 +124,9 @@ height: 100%;
 }
  
 ::-webkit-scrollbar-track {
-    display: none;
+    display: block;
+    box-shadow:  0 0 6px rgba(29, 165, 199, 1);
+    border-radius: 10px;
     
 }
 /* end of sidebar-list */
@@ -539,7 +541,7 @@ width: 97%;
     display: flex;
     justify-content: space-between;
     position: relative;
-    width: 80%;
+    width: 98%;
     margin: 5% auto;
     border-radius: 20px;
     border-style: solid;
@@ -570,8 +572,8 @@ width: 97%;
     font-size: 0.5rem;
     position: absolute;
     display: flex;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.6rem;
+    height: 1.6rem;
     border-radius: 50px;
     background-color: #2f81e7;
     color: white;
@@ -580,7 +582,7 @@ width: 97%;
 }
 .right-row-2{
  
- margin: 1rem;
+ margin: 1rem 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -742,7 +744,7 @@ use
     height: 100%;
     min-height: 100%;
     max-height: 100%;
-    overflow: visible;
+    overflow: hidden;
     overflow-y: hidden; 
 }
 .sidebar-mobile{
@@ -787,7 +789,7 @@ use
 }
 
 .center-main-row1{
-    margin: 7% auto;
+    margin: 7% -7%;
 }
 
 .rect-box {
@@ -874,7 +876,7 @@ use
     font-weight: 600;
 }
 .center-main-row-2-sidehead1 {
-    padding: 1rem 1rem;
+    padding: 1rem 0rem  ;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -1091,6 +1093,12 @@ use
         /* justify-content: space-between; */
         width: 98%;
     }
+
+
+    .searchcontainer{   
+        width: 100%;
+    }
+    
 }
 
 

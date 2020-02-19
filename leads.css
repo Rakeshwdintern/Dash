@@ -109,9 +109,11 @@ text-decoration: none;
 }
 .item-focus{
     color: darkblue;
+    margin-right: 0;
 }
 .list-focus{
-    color: #2f81e7;
+    
+    color:#2f81e7;
     border-right-style:solid;
     border-right-color: #2f81e7;
 }
@@ -124,6 +126,8 @@ text-decoration: none;
     min-height: 10px;
     max-height: 10px;
     width: 0.5rem;
+    box-shadow:  0 0 6px rgba(29, 165, 199, 1); 
+    border-radius: 10px;
 }
  
 ::-webkit-scrollbar-track {
@@ -266,6 +270,7 @@ text-decoration: none;
     height: 1.8rem;
     border: none;
     text-align: center;
+    align-items: center;
 }
 
 .create-campaign-button-text{
@@ -895,7 +900,7 @@ text-align: center;
     display: block;
 }
 .searchcontainer{
-width: 98%;
+width: 100%;
 }
 .searchbox{
     width: 80%;
@@ -1019,13 +1024,13 @@ margin-top: 10%;
 .right-small-text {
     font-size: 0.5rem;
     margin: 0 auto;
-    padding: 2% 6%;
+    padding: 2% 8%;
     border-radius: 20px;
     width: 20%;
     background-color: #007bff;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -6%;
+    top: -20%;
 }
 
 .folder-row {
