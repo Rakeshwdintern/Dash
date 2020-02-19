@@ -892,6 +892,7 @@ text-align: center;
     overflow-y: hidden; 
 }
 .sidebar-mobile{
+    padding-right: 1%;
     left: -100%;
     background: white;
     position: fixed;
@@ -900,6 +901,7 @@ text-align: center;
     height: 100vh;
     transition: linear;
     transition-duration: 0.5s;
+    box-shadow: 1px 0px 7px 1px rgba(29, 191, 195,0.4);
 }
 .mob-list-pages{
     margin-top: 10%;
